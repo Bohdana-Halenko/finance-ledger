@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/finance-ledger/static/css/main.584c42b8.css",
-    "main.js": "/finance-ledger/static/js/main.b7d97b59.js",
+    "main.js": "/finance-ledger/static/js/main.fd98f014.js",
     "static/media/showcase@2x.jpg": "/finance-ledger/static/media/showcase@2x.73c58f9aec29be2efd5a.jpg",
     "static/media/showcase.jpg": "/finance-ledger/static/media/showcase.51cab55d982ce4bcedb5.jpg",
     "static/media/people@2x.jpg": "/finance-ledger/static/media/people@2x.025e71c2eb8b92a53d5b.jpg",
@@ -60,10 +60,10 @@
     "static/media/facebook.svg": "/finance-ledger/static/media/facebook.1572d1414b1f588fe82b1863156a7c0f.svg",
     "static/media/logoIcon.svg": "/finance-ledger/static/media/logoIcon.f37e5d2f3deb6952a42334529914c3cc.svg",
     "main.584c42b8.css.map": "/finance-ledger/static/css/main.584c42b8.css.map",
-    "main.b7d97b59.js.map": "/finance-ledger/static/js/main.b7d97b59.js.map"
+    "main.fd98f014.js.map": "/finance-ledger/static/js/main.fd98f014.js.map"
   },
   "entrypoints": [
     "static/css/main.584c42b8.css",
-    "static/js/main.b7d97b59.js"
+    "static/js/main.fd98f014.js"
   ]
 }
