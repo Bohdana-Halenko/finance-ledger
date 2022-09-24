@@ -2,7 +2,7 @@
   "name": "finance-ledger",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Bohdana-Halenko.github.io/finance-ledger/",
+  
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -22,7 +22,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:js": "eslint src/**/*.{js,jsx}"
+    "lint:js": "eslint src/**/*.{js,jsx}",
+    "predeploy": "npm run build",
+    "deploy":"netlify deploy -p"
   },
   "eslintConfig": {
     "extends": [
