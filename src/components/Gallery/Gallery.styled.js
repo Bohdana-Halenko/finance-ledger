@@ -4,7 +4,10 @@ export const Box = styled.div`
   max-height: 80vh;
   position: relative;
 `
-
+export const currentImage = styled.div`
+height: 95%;
+width: 95%;
+`
 export const ArrowLeft = styled.div`
   display: flex;
   align-items: center;
@@ -20,15 +23,12 @@ export const ArrowLeft = styled.div`
     opacity: 1;
   }
 `
-
 export const ArrowRight = styled(ArrowLeft)`
   right: 0px;
 `
-
 export const ArrowImage = styled.img`
   cursor: pointer;
 `
-
 export const Close = styled.img`
   position: absolute;
   width: 20px;
