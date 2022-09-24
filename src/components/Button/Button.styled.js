@@ -5,7 +5,6 @@ const Base = styled.button`
   position: relative;
   padding: 10px 30px;
   font-size: 16px;
-  width: 155px;
   line-height: 1.6;
   text-transform: capitalize;
   color: ${(props) => props.theme.color.secondaryText};
