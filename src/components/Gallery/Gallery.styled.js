@@ -33,6 +33,7 @@ export const Close = styled.img`
   position: absolute;
   width: 20px;
   height: 20px;
+  top: -30px;
   right: 0px;
   opacity: 0.4;
   cursor: pointer;
