@@ -8,6 +8,21 @@ export const currentImage = styled.div`
 height: 95%;
 width: 95%;
 `
+export const Close = styled.img`
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: -30px;
+  right: 0px;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: ${(props) => props.theme.transition};
+
+  :hover,
+  :focus {
+    opacity: 1;
+  }
+`
 export const ArrowLeft = styled.div`
   display: flex;
   align-items: center;
@@ -29,17 +44,4 @@ export const ArrowRight = styled(ArrowLeft)`
 export const ArrowImage = styled.img`
   cursor: pointer;
 `
-export const Close = styled.img`
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  right: 0px;
-  opacity: 0.4;
-  cursor: pointer;
-  transition: ${(props) => props.theme.transition};
 
-  :hover,
-  :focus {
-    opacity: 1;
-  }
-`
