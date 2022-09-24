@@ -39,7 +39,6 @@ body {
   background-color: ${(props) => props.theme.color.mainBackground};
   font-weight: 400;
 }
-
 `;
 
 export default GlobalStyle;

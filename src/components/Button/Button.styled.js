@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import arrow from './img/arrow.png';
+import arrow from './images/arrow.png';
 
 const Base = styled.button`
   position: relative;

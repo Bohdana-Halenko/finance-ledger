@@ -5,9 +5,9 @@ import {
   ArrowImage,
   Close,
 } from './Gallery.styled';
-import prev from './img/prev.png';
-import next from './img/next.png';
-import close from './img/close.png';
+import prev from './images/prev.png';
+import next from './images/next.png';
+import close from './images/close.png';
 
 export default function Gallery({
   currentImage,

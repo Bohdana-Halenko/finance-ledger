@@ -11,7 +11,7 @@ import {
   GalleryItem,
   Image,
 } from './Cases.styled';
-import gallery from './img';
+import gallery from './images';
 
 export default function Cases() {
   const [showModal, toggleModal] = useToggle(false);

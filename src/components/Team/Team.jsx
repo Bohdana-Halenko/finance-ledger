@@ -12,20 +12,20 @@ import {
   Position,
 } from './Team.styled';
 
-import person1 from './img/person1.jpg';
-import person1_2x from './img/person1@2x.jpg';
-import person1_WebP from './img/person1.webp';
-import person1_WebP2x from './img/person1@2x.webp';
+import person1 from './images/person1.jpg';
+import person1_2x from './images/person1@2x.jpg';
+import person1_WebP from './images/person1.webp';
+import person1_WebP2x from './images/person1@2x.webp';
 
-import person2 from './img/person2.jpg';
-import person2_2x from './img/person2@2x.jpg';
-import person2_WebP from './img/person2.webp';
-import person2_WebP2x from './img/person2@2x.webp';
+import person2 from './images/person2.jpg';
+import person2_2x from './images/person2@2x.jpg';
+import person2_WebP from './images/person2.webp';
+import person2_WebP2x from './images/person2@2x.webp';
 
-import person3 from './img/person3.jpg';
-import person3_2x from './img/person3@2x.jpg';
-import person3_WebP from './img/person3.webp';
-import person3_WebP2x from './img/person3@2x.webp';
+import person3 from './images/person3.jpg';
+import person3_2x from './images/person3@2x.jpg';
+import person3_WebP from './images/person3.webp';
+import person3_WebP2x from './images/person3@2x.webp';
 
 export default function Team() {
   return (

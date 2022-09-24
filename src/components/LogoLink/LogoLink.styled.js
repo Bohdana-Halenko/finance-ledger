@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-scroll';
-import { ReactComponent } from './img/svg/logoIcon.svg';
+import { ReactComponent } from './images/svg/logoIcon.svg';
 
 export const LogoBox = styled.div`
   display: flex;

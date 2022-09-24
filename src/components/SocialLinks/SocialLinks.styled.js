@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { ReactComponent as Facebook } from './img/svg/facebook.svg';
-import { ReactComponent as Twitter } from './img/svg/twitter.svg';
-import { ReactComponent as Youtube } from './img/svg/youtube.svg';
-import { ReactComponent as Linkedin } from './img/svg/linkedin.svg';
+import { ReactComponent as Facebook } from './images/svg/facebook.svg';
+import { ReactComponent as Twitter } from './images/svg/twitter.svg';
+import { ReactComponent as Youtube } from './images/svg/youtube.svg';
+import { ReactComponent as Linkedin } from './images/svg/linkedin.svg';
 
 export const Container = styled.div`
   width: 216px;

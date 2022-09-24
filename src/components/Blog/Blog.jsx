@@ -8,10 +8,10 @@ import {
   Image,
 } from './Blog.styled';
 
-import blog from './img/blog.jpg';
-import blog2x from './img/blog@2x.jpg';
-import blogWebP from './img/blog.webp';
-import blogWebP2x from './img/blog@2x.webp';
+import blog from './images/blog.jpg';
+import blog2x from './images/blog@2x.jpg';
+import blogWebP from './images/blog.webp';
+import blogWebP2x from './images/blog@2x.webp';
 
 export default function Blog() {
   return (

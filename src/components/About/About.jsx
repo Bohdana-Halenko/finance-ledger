@@ -8,10 +8,10 @@ import {
   Paragraph,
 } from './About.styled';
 
-import people from './img/people.jpg';
-import people2x from './img/people@2x.jpg';
-import peopleWebP from './img/people.webp';
-import peopleWebP2x from './img/people@2x.webp';
+import people from './images/people.jpg';
+import people2x from './images/people@2x.jpg';
+import peopleWebP from './images/people.webp';
+import peopleWebP2x from './images/people@2x.webp';
 
 export default function About() {
   return (

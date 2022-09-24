@@ -3,7 +3,7 @@ import { Formik, Field as NetlifyInput } from 'formik';
 import { useToggle } from '../../hooks';
 import Button from '../Button';
 import Modal from '../Modal';
-import SuccessRequest from '../SuccessRequest';
+import SuccessForm from '../SuccessForm';
 import {
   Container,
   ContentBox,
@@ -16,12 +16,12 @@ import {
   WarningEmail,
   WarningText,
 } from './Contact.styled';
-import { ReactComponent as WarningIcon } from './img/svg/warning.svg';
+import { ReactComponent as WarningIcon } from './images/svg/warning.svg';
 
-import contact from './img/contact.jpg';
-import contact2x from './img/contact@2x.jpg';
-import contactWebP from './img/contact.webp';
-import contactWebP2x from './img/contact@2x.webp';
+import contact from './images/contact.jpg';
+import contact2x from './images/contact@2x.jpg';
+import contactWebP from './images/contact.webp';
+import contactWebP2x from './images/contact@2x.webp';
 
 const schema = Yup.object().shape({
   name: Yup.string().min(2, 'Name is too short!').max(50, 'Name is too long!'),
@@ -112,7 +112,7 @@ export default function Contact() {
 
       {showModal && (
         <Modal onClose={() => toggleModal()}>
-          <SuccessRequest onClose={() => toggleModal()} />
+          <SuccessForm onClose={() => toggleModal()} />
         </Modal>
       )}
     </>

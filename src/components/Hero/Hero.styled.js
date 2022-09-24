@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import showcase from './img/showcase.jpg';
-import showcase2x from './img/showcase@2x.jpg';
+import showcase from './images/showcase.jpg';
+import showcase2x from './images/showcase@2x.jpg';
 
 export const Container = styled.section`
   height: 533px;
